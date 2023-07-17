@@ -115,7 +115,7 @@ h3{
     height:462px;
     position:relative;
 }
-.paris{
+.pariss{
     position:absolute;
     width:350px;
     height:250px;
@@ -193,15 +193,19 @@ h3{
 .trans{
     filter:blur(4px);
 }
-@media (400px <= width <=600px){
+@media (280px <= width <=540px){
     .tf1{
-        left:2ex;
+        left:1ex;
+        font-size: 20px;
+        margin:0px;
     }
     .tf2{
-        left:150px;
+        left:110px;
+        font-size: 20px;
+        margin:0px;
     }
     .sf1{
-        right:180px;
+        left:155px;
     }
     .sf2{
         display:none;
@@ -210,14 +214,21 @@ h3{
         display: none;
     }
     .sf3{
-        left:170px;
+        left:155px;
     }
     .upon{
-        left:7%;
+        left:2%;
     }
-    .paris{
-        height:250px;
-        width:300px;
-        left:40px;
+    .pariss{
+        left: 10px;
+        width: 310px;
+    }
+    .boxs{
+        height: 220px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .mainbox{
+        width:90%;
     }
 }
